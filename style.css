@@ -1,0 +1,107 @@
+html,body{
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+.mobile-container{
+    width:100%;
+    height:100%;
+    background:url(mobile_bg.jpg);
+    background-position: center;
+    background-size:100% 100%;
+}
+
+.card{
+    height:100px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0);
+    border:0;
+}
+
+.player{
+    height:140px;
+}
+
+.card:active{
+    border-top:3px solid blue;
+}
+
+#choose_player{
+    position: absolute;
+    z-index: 9999999999;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    min-height: 55%;
+    background: url(https://xbox-store-checker.com/assets/upload/game/2020/06/optimize/9nlmcg7mhk1x-background.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 19px rgba(0,0,0,0.2);
+    display: none;
+    padding: 7px 50px;
+}
+
+#final_pop_up{
+    position: absolute;
+    z-index: 9999999999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    height: 65%;
+    background: url(https://xbox-store-checker.com/assets/upload/game/2020/06/optimize/9nlmcg7mhk1x-background.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 19px rgba(0,0,0,0.2);
+    display:none;
+    padding:7px 50px;
+}
+
+#dark_bg{
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index:1;
+    background:rgba(0,0,0,0.5);
+    display:none;
+    
+}
+
+#GK{bottom: 2%;left: 50%;}
+#CB1{bottom: 17%;left: 35%;}
+#CB2{bottom: 17%;left: 65%;}
+#LB{bottom: 19%;left: 90%;}
+#RB{bottom: 19%;left: 10%;}
+#CM1{bottom: 40%;left: 61%;}
+#CM2{bottom: 40%;left: 39%;}
+#LM{bottom: 47%;left: 13%;}
+#RM{bottom: 47%;left: 87%;}
+#ST1{bottom: 65%;left: 38%;}
+#ST2{bottom: 65%;left: 62%;}
+
+
+
+
+.btn{
+    position:absolute;
+    transform: translate(-50%,-50%);
+    bottom:0%;
+    left:50%;
+    background: url(https://xbox-store-checker.com/assets/upload/game/2020/06/optimize/9nlmcg7mhk1x-background.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index:99999999;
+}
+
+.btn2{
+    padding:10px;
+    font-size: 18px;
+    box-shadow: 1px 1px 8px black;
+}
+
+
